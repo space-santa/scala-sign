@@ -42,11 +42,8 @@ object Lines {
             }
         }
 
-        if (line.length > 0) {
-            buf += line
-        }
-
-        return buf
+        buf += line
+        return buf.filter(_.length > 0)
     }
 
     def makeSureWordsAreShorterThanLimit(words: Array[String], limit: Int): Array[String] = {
