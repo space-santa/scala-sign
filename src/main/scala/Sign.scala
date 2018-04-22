@@ -14,7 +14,7 @@ class Sign(val lines: Lines) {
         }
 
         result += emptyLine + "\n"
-        result += topOrBottom
+        result += topOrBottom + "\n"
         return result
     }
 }
