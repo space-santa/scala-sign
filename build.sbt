@@ -4,7 +4,8 @@ lazy val root = (project in file(".")).
       organization := "com.example",
       scalaVersion := "2.12.4"
     )),
-    name := "scala-sign"
+    name := "scala-sign",
+    version := "1.0.0"
   )
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test
