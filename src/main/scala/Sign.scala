@@ -20,3 +20,9 @@ class Sign(val lines: Lines) {
     return result
   }
 }
+
+object Sign {
+  def maxAllowedLineLength(terminalWidth: Int): Int = {
+    return terminalWidth - 4
+  }
+}
